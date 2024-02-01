@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1280px;
+    margin: 0 auto;
+    height: 72px;
+    /* box-shadow: 2px 2px 2px; */
+  }
+  
+  nav ul{
+    display: flex;
+    list-style: none;
+    gap: 34px;
+    font-size: 18px;
+  }
+
+  nav li{
+    animation: all;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1s;
+  }
+
+  nav li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: yellow;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    animation: all;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1s;
+  }
+  
+  button{
+    all: unset;
+    padding: 8px 20px;
+    height: 32px;
+    width: 50px;
+    color: white;
+    font-weight: 500;
+    background-color: red; 
+    border-radius: 10px;
+  }
+
+  button:hover{
+    background-color: greenyellow;
+    color: black;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  
+  
+  
